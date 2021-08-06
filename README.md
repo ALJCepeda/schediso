@@ -31,7 +31,7 @@ Symbols can be combined for `of` effect
 <   - less than
 <=  - less than or equal
 ><  - not
-*/* - step
+*:* - step
 *-* - range
 *,* - list
 ```
@@ -46,13 +46,13 @@ Symbols can be combined for `of` effect
 ```
 **1st minute of every fifth hour every saturday in the month of february on leap years only**
 ```
-!LY 1M 5dW 1/5h 1m
+!LY 1M 5dW 1:5h 1m
 ```
 **Every month after February**
 ```
-*M M>1
+*M M>2
 ```
 **Every other hour of every 4th saturday of every 5th year**
 ```
-1/2h 1/5Y 5dW dW=1/4 
+1:2h 1:5Y 5dW dW=1:4 
 ```
